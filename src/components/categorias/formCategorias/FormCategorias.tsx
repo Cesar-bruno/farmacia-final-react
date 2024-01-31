@@ -75,7 +75,7 @@ function FormCategoria() {
                         onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
                     />
                 </div>
-                <button className="rounded text-slate-100 bg-red-400 hover:bg-sky-500 w-1/2 py-2 mx-auto flex justify-center font-bold" type="submit">
+                <button className="rounded text-slate-100 bg-indigo-400 hover:bg-sky-500 w-1/2 py-2 mx-auto flex justify-center font-bold" type="submit">
                     {isLoading ?
                         <RotatingLines
                             strokeColor="white"

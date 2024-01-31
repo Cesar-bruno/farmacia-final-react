@@ -14,7 +14,7 @@ function Home() {
 
                         <div className="flex justify-around gap-4">
                             <div className="flex justify-around gap-4">
-                               
+                             
                             </div>
                         </div>
 
@@ -31,8 +31,7 @@ function Home() {
                         />
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         </>
     )
 }
